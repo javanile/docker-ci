@@ -1,4 +1,4 @@
-FROM docker:%{version}
+FROM docker:19.03.8
 
 ENV PYTHONWARNINGS="ignore::DeprecationWarning"
 
