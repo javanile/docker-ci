@@ -13,9 +13,9 @@ for version in "${versions[@]}"; do
   chmod +x ${version}/docker-compose ${version}/docker-ci-entrypoint.sh
   chmod 600 ${version}/config
   docker build -t javanile/docker-ci:${version} ${version}
-  #docker push javanile/docker-ci:${version}
+  docker push javanile/docker-ci:${version}
 done
 
-#git add .
-#git commit -am "new release"
-#git push
+git add .
+git commit -am "new release"
+git push
