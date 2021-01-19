@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 echo "Docker CI"
+echo " - WORKDIR: ${PWD}"
+
+printenv
 
 git config --global user.name "Docker CI"
 git config --global user.email "${GITLAB_USER_EMAIL}"
