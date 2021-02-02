@@ -16,6 +16,7 @@ RUN apk add --no-cache \
     curl \
     wget \
     zip \
+    coreutils \
     diffutils
 RUN pip install "pytest<5"
 RUN pip install awsebcli "pyrsistent==0.16.0"
