@@ -18,9 +18,9 @@ RUN apk add --no-cache \
     zip \
     coreutils \
     diffutils
-RUN pip install "pytest<5"
-RUN pip install awsebcli "pyrsistent==0.16.0"
-RUN pip install "docker-compose"
+#RUN pip install "pytest<5"
+#RUN pip install awsebcli "pyrsistent==0.16.0"
+#RUN pip install "docker-compose"
 
 RUN mkdir /root/.ssh && ssh-keyscan -t rsa gitlab.com >> /root/.ssh/known_hosts
 
