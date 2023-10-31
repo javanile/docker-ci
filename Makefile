@@ -7,7 +7,7 @@ update:
 build:
 	docker build -t javanile/docker-ci:$(VERSION) $(VERSION)
 
-test: update
+test: update build
 	docker run --rm \
 		-e GITLAB_DEPLOY_KEY=deploy_key \
 		-e GITLAB_USER_EMAIL=bianco@javanile.org \
