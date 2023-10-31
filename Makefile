@@ -16,5 +16,5 @@ test: update build
 release: build
 	git add .
 	git commit -am "New release" && true
-	git push
+	git push && true
 	docker push javanile/docker-ci:$(VERSION)
