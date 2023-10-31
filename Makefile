@@ -1,5 +1,5 @@
 
-VERSION := 19.03.8
+VERSION := 20.10.24
 
 update:
 	bash update.sh

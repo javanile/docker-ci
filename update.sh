@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 versions=(
-  19.03.8
+  20.10.24
 )
 
 for version in "${versions[@]}"; do
