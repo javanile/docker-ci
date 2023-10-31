@@ -5,8 +5,6 @@ ENV PYTHONWARNINGS="ignore::DeprecationWarning"
 RUN apk add --no-cache \
     git \
     make \
-    py-pip \
-    python-dev \
     libffi-dev \
     openssl-dev \
     gcc \
