@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 git clone git@gitlab.com:javanile/fixtures/private-repository.git
 
